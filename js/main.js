@@ -1,12 +1,12 @@
-var redButton = document.querySelector(".one")
-var whiteButton = document.querySelector(".two")
-var blueButton = document.querySelector(".three")
-var yellowButton = document.querySelector(".four")
+const redButton = document.querySelector('.js-button.red')
+const whiteButton = document.querySelector('.js-button.white')
+const blueButton = document.querySelector('.js-button.blue')
+const yellowButton = document.querySelector('.js-button.yellow')
 
-redButton.addEventListener("click", changeRed )
-whiteButton.addEventListener("click", changeWhite )
-blueButton.addEventListener("click", changeBlue )
-yellowButton.addEventListener("click", changeYellow )
+redButton.addEventListener("click", changeRed)
+whiteButton.addEventListener("click", changeWhite)
+blueButton.addEventListener("click", changeBlue)
+yellowButton.addEventListener("click", changeYellow)
 
 function changeRed(){
   document.body.style.backgroundColor = "red"
