@@ -1,5 +1,10 @@
 # Color Scheme Switcher
 
+1. Fork into your account
+1. Create a feature branch
+1. Clone to your machine
+1. Pull Request when done
+
 Attached is the completed HTML and CSS for an incredibly advanced website. In anticipation of the millions of viewers it's going to draw, we'd like to let users customize their experience by choosing a color scheme for the site.
 
 The only downside is none of us know Javascript!
